@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+dotenv
+
+# Local data files
+data/raw/
+data/processed/
+
+# dbt
+dbt_packages/
+target/
+logs/
+
+# Operating system
+.DS_Store
+Thumbs.db
